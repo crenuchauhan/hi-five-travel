@@ -31,6 +31,19 @@ import { GTGOLDENTEMPLEComponent } from './gt-golden-temple/gt-golden-temple.com
 import { DELHIVKOAJComponent } from './delhi-v-k-o-a-j/delhi-v-k-o-a-j.component';
 import { DVARAKHAJORCHAAGRAJAIPJODHUDAMComponent } from './d-vara-khaj-orcha-agra-jaip-jodh-uda-m/d-vara-khaj-orcha-agra-jaip-jodh-uda-m.component';
 import { KarnatkaGoaTourComponent } from './karnatka-goa-tour/karnatka-goa-tour.component';
+import { KASHMIRPARADISEComponent } from './kashmir-paradise/kashmir-paradise.component';
+import { KerlaBlackwaterComponent } from './kerla-blackwater/kerla-blackwater.component';
+import { MumbaiWithKeralaComponent } from './mumbai-with-kerala/mumbai-with-kerala.component';
+import { NINatureAndAdvantureTureComponent } from './ni-nature-and-advanture-ture/ni-nature-and-advanture-ture.component';
+import { OrissaGoldenTriangleComponent } from './orissa-golden-triangle/orissa-golden-triangle.component';
+import { RajasthanCulturalComponent } from './rajasthan-cultural/rajasthan-cultural.component';
+import { AmarnathComponent } from './amarnath/amarnath.component';
+import { RishikeshDevprayagRajasthanComponent } from './rishikesh-devprayag-rajasthan/rishikesh-devprayag-rajasthan.component';
+import { SouthIndiaTourComponent } from './south-india-tour/south-india-tour.component';
+import { OotyComponent } from './Bangalore/Mysore/ooty/ooty.component';
+import { WestIndiaCultureAndBeachComponent } from './west-india-culture-and-beach/west-india-culture-and-beach.component';
+import { WestIndiaCultureComponent } from './west-india-culture/west-india-culture.component';
+import { YogaMeditianComponent } from './yoga-meditian/yoga-meditian.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +75,20 @@ import { KarnatkaGoaTourComponent } from './karnatka-goa-tour/karnatka-goa-tour.
     GTGOLDENTEMPLEComponent,
     DELHIVKOAJComponent,
     DVARAKHAJORCHAAGRAJAIPJODHUDAMComponent,
-    KarnatkaGoaTourComponent
+    KarnatkaGoaTourComponent,
+    KASHMIRPARADISEComponent,
+    KerlaBlackwaterComponent,
+    MumbaiWithKeralaComponent,
+    NINatureAndAdvantureTureComponent,
+    OrissaGoldenTriangleComponent,
+    RajasthanCulturalComponent,
+    AmarnathComponent,
+    RishikeshDevprayagRajasthanComponent,
+    SouthIndiaTourComponent,
+    OotyComponent,
+    WestIndiaCultureAndBeachComponent,
+    WestIndiaCultureComponent,
+    YogaMeditianComponent
   ],
   imports: [
     BrowserModule,

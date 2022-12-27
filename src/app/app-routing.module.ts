@@ -1,6 +1,8 @@
 import { compileClassMetadata } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AmarnathComponent } from './amarnath/amarnath.component';
+import { OotyComponent } from './Bangalore/Mysore/ooty/ooty.component';
 import { BookingComponent } from './booking/booking.component';
 import { CSouthIndiaComponent } from './c-south-india/c-south-india.component';
 import { CarBookingComponent } from './car-booking/car-booking.component';
@@ -20,14 +22,25 @@ import { HomeComponent } from './home/home.component';
 import { HotalBookingComponent } from './hotal-booking/hotal-booking.component';
 import { IndiaComponent } from './india/india.component';
 import { KarnatkaGoaTourComponent } from './karnatka-goa-tour/karnatka-goa-tour.component';
+import { KASHMIRPARADISEComponent } from './kashmir-paradise/kashmir-paradise.component';
 import { KeralaComponent } from './kerala/kerala.component';
+import { KerlaBlackwaterComponent } from './kerla-blackwater/kerla-blackwater.component';
 import { LordBuddhaComponent } from './lord-buddha/lord-buddha.component';
 import { MiceComponent } from './mice/mice.component';
+import { MumbaiWithKeralaComponent } from './mumbai-with-kerala/mumbai-with-kerala.component';
+import { NINatureAndAdvantureTureComponent } from './ni-nature-and-advanture-ture/ni-nature-and-advanture-ture.component';
 import { NorthIndiaComponent } from './north-india/north-india.component';
+import { OrissaGoldenTriangleComponent } from './orissa-golden-triangle/orissa-golden-triangle.component';
+import { RajasthanCulturalComponent } from './rajasthan-cultural/rajasthan-cultural.component';
+import { RishikeshDevprayagRajasthanComponent } from './rishikesh-devprayag-rajasthan/rishikesh-devprayag-rajasthan.component';
+import { SouthIndiaTourComponent } from './south-india-tour/south-india-tour.component';
 import { SouthIndiaComponent } from './south-india/south-india.component';
 import { TempleTourComponent } from './temple-tour/temple-tour.component';
 import { TrainBookingComponent } from './train-booking/train-booking.component';
 import { VisaComponent } from './visa/visa.component';
+import { WestIndiaCultureAndBeachComponent } from './west-india-culture-and-beach/west-india-culture-and-beach.component';
+import { WestIndiaCultureComponent } from './west-india-culture/west-india-culture.component';
+import { YogaMeditianComponent } from './yoga-meditian/yoga-meditian.component';
 
 const routes: Routes = [
 
@@ -64,10 +77,19 @@ const routes: Routes = [
     {path:'DELHI–VARANASI–KHAJURAHO–ORCHA–AGRA–JAIPUR–DELHI', component:DELHIVKOAJComponent},
     {path:'D-VARA-KHAJ-ORCHA-AGRA-JAIP-JODH-UDA-M', component:DVARAKHAJORCHAAGRAJAIPJODHUDAMComponent},
     {path:'Karnatka-Goa-Tour', component:KarnatkaGoaTourComponent},
-     
-
-
-
+    {path:'KASHMIR-PARADISE', component:KASHMIRPARADISEComponent},
+    {path:'kerla-blackwater', component:KerlaBlackwaterComponent},
+  { path: 'MumbaiWithKerala', component: MumbaiWithKeralaComponent }, 
+  { path: 'NINatureAndAdvantureTure', component: NINatureAndAdvantureTureComponent }, 
+  { path: 'Orissa-Golden-Triangle', component: OrissaGoldenTriangleComponent }, 
+  { path:'Rajasthan-Cultural', component:RajasthanCulturalComponent},
+  { path: 'Amarnath', component: AmarnathComponent }, 
+  { path: 'RishikeshDevprayagRajasthan', component:RishikeshDevprayagRajasthanComponent},
+  { path: 'SouthIndiaTour', component: SouthIndiaTourComponent},
+  { path: 'bangalore-mysore-ooty', component: OotyComponent },
+  { path: 'West-India-CultureAndBeach', component:WestIndiaCultureAndBeachComponent },
+  { path: 'WestIndiaCulture', component:WestIndiaCultureComponent},
+  { path: 'YogaMeditian', component: YogaMeditianComponent },
 ];
 
 @NgModule({
